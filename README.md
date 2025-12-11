@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=22006261&assignment_repo_type=AssignmentRepo)
 # TP 6 : Mini-Application Web Avancée (HTML + CSS + JS) & Introduction au PHP
 Ce TP vise à combiner les technologies HTML, CSS et JavaScript pour construire une mini-application web dynamique.<br>
 Une deuxième petite partie introduit PHP à partir de l’affichage de variables simples (sans formulaires).<br>

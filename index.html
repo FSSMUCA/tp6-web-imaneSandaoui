@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-calculator"></i>
+                <h1>Calculatrice </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Calculatrice</a></li>
+                    <li><a href="info.php">Informations PHP</a></li>
+                </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+    <div class="calculator-grid">
+           <section class="card">
+         <h2><i class="fas fa-calculator"></i> Calculer</h2>
+         <form id="calculator-form">
+             <div class="form-group">
+                 <label for="number>
+                          <i class="fas fa-hashtag"></i> Nombre A :
+                            </label>    <input type="number" id="numberA" step="any" placeholder="Entrez un nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="operation">
+                                <i class="fas fa-sort"></i> Opération :
+                            </label>
+                            <select id="operation" required>
+                                <option value="">-- Choisissez une opération --</option>
+                                <option value="+">Addition (+)</option>
+                                <option value="-">Soustraction (-)</option>
+                                <option value="*">Multiplication (×)</option>
+                                <option value="/">Division (÷)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="numberB">
+                                <i class="fas fa-hashtag"></i> Nombre B :
+                            </label>
+                            <input type="number" id="numberB" step="any" placeholder="Entrez un nombre" required>
+                        </div>
+                        
+                        <button type="submit" class="btn-calculate">
+                            <i class="fas fa-calculator"></i> Calculer
+                        </button>
+                    </form>
+                    <div class="error-container" id="error-container">
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="history-header">
+                        <h2><i class="fas fa-history"></i> Historique des Opérations</h2>
+                        <button id="clear-history" class="btn-clear">
+                            <i class="fas fa-trash"></i> Effacer
+                        </button>
+                    </div>
+                    
+                    <div class="history-list" id="history-list">
+                        <div class="empty-history">
+                            <i class="fas fa-info-circle"></i>
+                            <p>Aucune opération effectuée</p>
+                            <p class="subtext">Les calculs apparaîtront ici</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Calculatrice Avancée - TP6 Web - FSSM UCA</p>
+            <p>Module: IAP3 - Année 2025</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
